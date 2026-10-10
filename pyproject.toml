@@ -1,0 +1,23 @@
+
+[project]
+name = "langserve-routing"
+version = "0.1.0"
+description = "LangServe Routing Application"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain",
+    "langchain-google-genai",
+    "langchain-groq",
+    "langchain-core",
+    "python-dotenv",
+    "langserve[all]",
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "pydantic",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"

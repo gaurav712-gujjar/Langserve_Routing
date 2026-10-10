@@ -1,0 +1,15 @@
+Agenda --->  LLM restapi endpoint using langserve 
+
+2 LLM gemiin , groq  --> connectivity fastapi , langserve 
+
+client.py ---> 2 agent---> Langserve ki api endpoint  
+
+question --. endpoint hit ---> Agent --> Langserve --> respoonse 
+
+Terminal 1
+
+uvicorn main:app --reload 
+
+Terminal 2 
+
+python client.py 
